@@ -1,9 +1,9 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/Lachhab1/portfolio-en
 
 go 1.21
 
 require github.com/hugo-toha/toha/v4 v4.8.1-0.20250414164834-722336146405 // indirect
 
 // replace(
-//     github.com/hugo-toha/toha/v4 => ../toha
+// github.com/hugo-toha/toha/v4 => ../toha
 // )
