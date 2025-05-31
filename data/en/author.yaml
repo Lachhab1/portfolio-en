@@ -1,21 +1,116 @@
-# some information about you
-name: "John Doe"
-nickname: "John"
-# greeting message before your name. it will default to "Hi! I am" if not provided
+name: "Mohammed Lachhab"
+nickname: "Mohammed"
 greeting: "Hi, I am"
-image: "images/author/john.png"
-# give your some contact information. they will be used in the footer
-contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
-  researchgate: john-doe
+image: "images/author/mohammed.jpg"
 
-# some summary about what you do
+contactInfo:
+  email: "mohammedlachhab172@gmail.com"
+  phone: "+21268743-9035"
+  github: "Lachhab1"
+  linkedin: "mohammed-lachhab"
+  researchgate: "not-yet"
+  address: "Casablanca, Morocco"
+
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - I am passionate about cybersecurity and web application security
+  - I am a DevOps enthusiast
+  - I love hacking
+  - I love to work with innovative and fun projects
+  - I am passionate about cybersecurity and web application security
+
+professionalExperience:
+  - title: "Digital Transformation Intern"
+    company: "CONCREFIELD, Casablanca"
+    period: "August 2024 - September 2024"
+    responsibilities:
+      - Deployed a secure ERP, improving web performance by 20%
+      - Reduced processing time by 40% and eliminated critical vulnerabilities
+      - Secured IT infrastructure and managed user access
+
+  - title: "Full Stack Developer Intern"
+    company: "English Castle Center, Bouskoura"
+    period: "May 2023 - August 2023"
+    responsibilities:
+      - Developed a secure web application using React, Laravel, and MySQL
+      - Implemented Sanctum Authentication and protections against XSS and SQL injection
+      - Worked in an Agile environment, adhering to DevSecOps practices
+
+education:
+  - degree: "Engineering Degree in Computer Science and Cybersecurity (2nd Year)"
+    institution: "ENSET Mohammedia, Morocco"
+    period: "September 2023 - Present"
+  - degree: "Bachelor’s in Mathematical Sciences and Computer Science (SMI)"
+    institution: "Faculty of Sciences Ben M'Sik, Casablanca"
+    period: "September 2020 - May 2023"
+  - degree: "Baccalauréat Sciences Mathématiques A"
+    institution: "Ibn Batouta High School, Médiouna"
+    period: "June 2020"
+
+certifications:
+  - title: "Network Security"
+    issuer: "Cisco Networking Academy"
+    details: "Network security, Cisco firewalls, IPsec VPN, ACLs, attack prevention"
+  - title: "CyberOps Associate"
+    issuer: "Cisco Networking Academy"
+    details: "Cyber threat monitoring, detection, and response"
+  - title: "HCIA-Security V4.0"
+    issuer: "Huawei Academy"
+    details: "Network security and IT infrastructure protection"
+
+projects:
+  - title: "BackupGuard: Backup Security Against Ransomware"
+    period: "Present"
+    details:
+      - Designed a hybrid backup system with integrity verification using Polygon blockchain
+      - Implemented decentralized storage with IPFS and Azure for redundancy
+      - Secured encryption keys with Shamir’s Secret Sharing cryptography
+  - title: "Network Intrusion Detection Project"
+    period: "January 2025"
+    details:
+      - Developed a Python-based ML model for phishing detection in emails and URLs (95% accuracy)
+      - Built real-time threat analysis and a user interface
+  - title: "Phishing Detection Using Machine Learning"
+    period: "May 2024"
+    details:
+      - Trained a Python-based model for real-time threat analysis (95% accuracy)
+      - Developed a user interface for threat detection
+      - Participated in Hackathon ENSET
+
+skills:
+  cybersecurity:
+    - Cyber threat analysis
+    - Web application security (OWASP)
+    - Penetration testing
+  development:
+    - React
+    - Express.js
+    - C++
+    - Python
+    - Laravel
+    - JavaScript
+    - MySQL
+    - PHP
+    - JSON
+  devsecops:
+    - Linux
+    - Bash Scripting
+    - Firewall management
+    - System administration
+  cloud:
+    - IT infrastructure security
+    - System monitoring
+  ai:
+    - Threat detection with Python
+    - Predictive analysis
+  management:
+    - Agile methodology
+    - Teamwork
+    - Problem-solving
+
+languages:
+  - language: "Arabic"
+    level: "Native"
+  - language: "French"
+    level: "Fluent"
+  - language: "English"
+    level: "Fluent"

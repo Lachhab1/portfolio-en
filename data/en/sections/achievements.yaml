@@ -1,6 +1,5 @@
-# section information
 section:
-  name: Achievements
+  name: Highlights
   id: achievements
   enable: true
   weight: 10
@@ -8,17 +7,20 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# Your achievements achievements
+# Your highlights
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+  - title: GITEX AFRICA 2025 Participation
+    image: /images/sections/highlights/gitex.png
+    summary: Participated in Africa's largest Tech & Startup Show in Marrakech, connecting with industry leaders and experiencing cutting-edge technology.
+
+  - title: Fintech ENSIAS Hackathon - Top 10
+    image: /images/sections/highlights/ensias.png
+    summary: Top 10 finalist among 59 teams. Developed "DabaPay" - instant multi-currency payment solution.
+
+  - title: ENSET Challenge 2025 - Finalist
+    image: /images/sections/highlights/n7.png
+    summary: Top 10 finalist in national hackathon competing in AI, Web, Mobile, and Cloud solutions.
+
+  - title: Triple Cybersecurity Certifications
+    image: /images/sections/highlights/graduation-cap.jpg
+    summary: Cisco Network Security, CyberOps Associate, and Huawei HCIA-Security V4.0 certifications.

@@ -1,4 +1,3 @@
-# section information
 section:
   name: Education
   id: education
@@ -10,95 +9,111 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - name: Engineering Degree in Computer Science and Cybersecurity
+    icon: fa-shield-alt
+    timeframe: Sep 2023 - Present
+    institution:
+      name: ENSET Mohammedia
+      url: "https://www.enset-media.ac.ma/"
+      logo: /images/sections/education/enset-logo.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/enset-logo-dark.png
+    grade: #(optional)
+      scale: Currently
+      achieved: 2nd Year
+      outOf: Student
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 4
+      courses:
+        - name: Network Security & Cybersecurity
+          achieved: Excellent
+          outOf: ""
+        - name: Web Application Security (OWASP)
+          achieved: Excellent
+          outOf: ""
+        - name: Penetration Testing & Ethical Hacking
+          achieved: Excellent
+          outOf: ""
+        - name: DevSecOps & Secure Development
+          achieved: Excellent
+          outOf: ""
+        - name: Machine Learning for Cybersecurity
+          achieved: Excellent
+          outOf: ""
+        - name: Cloud Security & Infrastructure
+          achieved: Excellent
+          outOf: ""
+    extracurricularActivities: #(optional)
+      - Won hackathon for Phishing Detection using Machine Learning (May 2024)
+      - Developed Network Intrusion Detection Project (January 2025)
+      - Currently working on "BackupGuard" - Backup Security Against Ransomware
+      - Active member in cybersecurity research and development
+    customSections: #(optional)
+      - name: Current Project
+        content: Developing "BackupGuard" - a hybrid backup system with blockchain integrity verification, IPFS decentralized storage, and Shamir's Secret Sharing cryptography.
+      - name: Specialization
+        content: Cybersecurity, Network Security, Web Application Security, and DevSecOps practices.
+
+  - name: Bachelor's in Mathematical Sciences and Computer Science (SMI)
+    icon: fa-graduation-cap
+    timeframe: Sep 2020 - May 2023
+    institution:
+      name: Faculty of Sciences Ben M'Sik, Casablanca
+      url: "#"
+      logo: /images/sections/education/fsbm-logo.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/fsbm-logo-dark.png
+    grade: #(optional)
+      scale: Status
+      achieved: Graduated
+      outOf: Successfully
+    takenCourses: #(optional)
+      showGrades: false
+      collapseAfter: 3
+      courses:
+        - name: Mathematics & Applied Mathematics
+          achieved: ""
+          outOf: ""
+        - name: Computer Science Fundamentals
+          achieved: ""
+          outOf: ""
+        - name: Programming & Software Development
+          achieved: ""
+          outOf: ""
+        - name: Data Structures and Algorithms
+          achieved: ""
+          outOf: ""
+        - name: Database Systems
+          achieved: ""
+          outOf: ""
+    extracurricularActivities: #(optional)
+      - Internship at English Castle Center - Full Stack Developer (May 2023 - Aug 2023)
+      - Developed secure web applications using React, Laravel, and MySQL
+      - Implemented comprehensive security measures against XSS and SQL injection
+      - Applied Agile methodology and DevSecOps best practices
+    customSections: #(optional)
+      - name: Key Achievement
+        content: Successfully transitioned from mathematical sciences to specialized cybersecurity focus, building strong foundation in both theoretical and practical computer science.
+      - name: Skills Developed
+        content: Strong analytical thinking, problem-solving abilities, and mathematical foundation essential for cybersecurity algorithms and cryptography.
+
+  - name: Baccalauréat Sciences Mathématiques A
+    icon: fa-calculator
+    timeframe: Jun 2020
+    institution:
+      name: Ibn Batouta High School, Médiouna
+      url: "#"
+      logo: /images/sections/education/high-school-logo.png
+      # Can optionally show a different logo for dark theme
+      # darkLogo: /images/sections/education/high-school-logo-dark.png
+    grade: #(optional)
+      scale: Status
+      achieved: Graduated
+      outOf: Successfully
+    extracurricularActivities: #(optional)
+      - Specialized in Mathematical Sciences with focus on advanced mathematics
+      - Strong foundation in analytical thinking and problem-solving
+      - Developed logical reasoning skills essential for cybersecurity
+      - Participated in mathematics competitions and academic activities

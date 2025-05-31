@@ -1,4 +1,3 @@
-# section information
 section:
   name: Accomplishments
   id: accomplishments
@@ -8,39 +7,52 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
-  organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+  - name: Network Security
+    timeline: "2024"
+    organization:
+      name: Cisco Networking Academy
+      url: https://www.netacad.com/
+    courseOverview: Comprehensive course covering network security fundamentals, Cisco firewalls configuration, IPsec VPN implementation, Access Control Lists (ACLs), and advanced attack prevention techniques. Gained hands-on experience with enterprise-level security solutions.
+    certificateURL: "https://www.credly.com/badges/97dca7ac-5e1b-4082-a47b-30225ff58048"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
-  organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+  - name: CyberOps Associate
+    timeline: "2024"
+    organization:
+      name: Cisco Networking Academy
+      url: https://www.netacad.com/
+    courseOverview: Advanced cybersecurity operations course focusing on cyber threat monitoring, detection, and incident response. Developed skills in security operations center (SOC) procedures, threat analysis, and cybersecurity tools and technologies.
+    certificateURL: "files/certificates/cyberops-associate.pdf"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
-  organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+  - name: HCIA-Security V4.0
+    timeline: "2024"
+    organization:
+      name: Huawei Academy
+      url: https://e.huawei.com/en/talent/#/cert/product-details?certId=234
+    courseOverview: Comprehensive network security certification covering IT infrastructure protection, security management, firewall technologies, and enterprise security solutions. Focused on Huawei security products and industry best practices.
+    certificateURL: "files/certificates/hcia-security.pdf"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
-  organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
-  certificateURL: "https://example.com"
- 
+  - name: Phishing Detection Using Machine Learning
+    timeline: "May 2024"
+    organization:
+      name: ENSET Mohammedia - Hackathon
+      url: https://www.enset-media.ac.ma/
+    courseOverview: Developed an advanced machine learning solution for phishing detection in emails and URLs. Trained a Python-based model targeting 95% accuracy with real-time threat analysis capabilities and intuitive user interface.
+    certificateURL: "files/certificates/hackathon-phishing-detection.pdf"
 
+  - name: Digital Transformation & ERP Security
+    timeline: "Aug 2024 - Sep 2024"
+    organization:
+      name: CONCREFIELD
+      url: "#"
+    courseOverview: Successfully deployed secure ERP systems and optimized web performance by 20%. Reduced processing time by 40%, eliminated critical vulnerabilities, and implemented comprehensive IT infrastructure security measures with advanced user access management.
+    certificateURL: "files/certificates/concrefield-internship.pdf"
+
+  - name: Full Stack Secure Development
+    timeline: "May 2023 - Aug 2023"
+    organization:
+      name: English Castle Center
+      url: "#"
+    courseOverview: Developed secure web applications using React, Laravel, and MySQL. Implemented Sanctum Authentication and comprehensive protection against XSS and SQL injection attacks. Applied DevSecOps best practices in an Agile development environment.
+    certificateURL: "files/certificates/english-castle-internship.pdf"

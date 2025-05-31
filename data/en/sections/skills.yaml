@@ -1,4 +1,3 @@
-# section information
 section:
   name: Skills
   id: skills
@@ -11,61 +10,114 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+  - name: All
+    filter: "all"
+  - name: Basic
+    filter: "basic"
+  - name: Language
+    filter: "language"
+  - name: Container
+    filter: "container"
+  - name: Others
+    filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+    categories: ["container"]
+    url: "https://www.docker.com/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: Prometheus
+    logo: /images/sections/skills/prometheus.png
+    summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+    categories: ["basic"]
+    url: "https://prometheus.io/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Using as the main operating system. Proficient in system administration, Bash scripting, and securing Linux-based environments."
+    categories: ["others"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+    categories: ["basic"]
+    url: "https://git-scm.com/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: Cybersecurity
+    logo: /images/sections/skills/it.png
+    summary: "Skilled in cyber threat analysis, penetration testing, and web application security following OWASP standards."
+    categories: ["others"]
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: Penetration Testing
+    logo: /images/sections/skills/it.png
+    summary: "Experienced in conducting penetration testing to identify and mitigate vulnerabilities in IT systems and web applications."
+    categories: ["others"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: Web Application Security
+    logo: /images/sections/skills/it.png
+    summary: "Proficient in securing web applications against vulnerabilities like XSS and SQL injection, following OWASP guidelines."
+    categories: ["others"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: React
+    logo: /images/sections/skills/react.png
+    summary: "Experienced in building secure and scalable front-end applications using React."
+    categories: ["basic", "language"]
+    url: "https://reactjs.org/"
+
+  - name: Express.js
+    logo: /images/sections/skills/it.png
+    summary: "Skilled in developing secure backend applications using Express.js with Node.js."
+    categories: ["basic", "language"]
+    url: "https://expressjs.com/"
+
+  - name: Python
+    logo: /images/sections/skills/it.png
+    summary: "Proficient in Python for secure development, machine learning, and threat detection applications."
+    categories: ["basic", "language"]
+    url: "https://www.python.org/"
+
+  - name: Laravel
+    logo: /images/sections/skills/it.png
+    summary: "Experienced in developing secure web applications using Laravel with Sanctum Authentication."
+    categories: ["basic", "language"]
+    url: "https://laravel.com/"
+
+  - name: JavaScript
+    logo: /images/sections/skills/it.png
+    summary: "Skilled in JavaScript for building secure and interactive web applications."
+    categories: ["basic", "language"]
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+
+  - name: JSON
+    logo: /images/sections/skills/it.png
+    summary: "Skilled in using JSON for data interchange in secure web applications."
+    categories: ["basic"]
+
+  - name: DevSecOps
+    logo: /images/sections/skills/devsecops.png
+    summary: "Experienced in implementing DevSecOps practices, integrating security into Agile development workflows."
+    categories: ["others"]
+
+  - name: Firewall Management
+    logo: /images/sections/skills/it.png
+    summary: "Proficient in configuring and managing firewalls (e.g., Cisco) to secure IT infrastructure."
+    categories: ["others"]
+
+  - name: System Administration
+    logo: /images/sections/skills/it.png
+    summary: "Skilled in managing and securing IT systems, including user access control and infrastructure protection."
+    categories: ["others"]
+
+  - name: Machine Learning
+    logo: /images/sections/skills/it.png
+    summary: "Experienced in building machine learning models for threat detection, achieving high accuracy in phishing detection."
+    categories: ["others"]
+
+  - name: Project Management
+    logo: /images/sections/skills/it.png
+    summary: "Proficient in Agile methodologies, teamwork, and problem-solving for efficient project delivery."
+    categories: ["others"]
